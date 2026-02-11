@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Version 2: Mapping the Conversation — Gems: Building an Intellectual Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">AI Tools for Writers</p>
+      <h1><a href="index.html">Gems: Building an Intellectual Map</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="what-is-an-intellectual-map.html" class="current">Intellectual Map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="slogan-banner">
+      <span class="main-slogan">Better context, deeper insight.</span>
+      <span class="subtext">The same AI produces fundamentally different results depending on what you give it to work with.</span>
+    </div>
+
+    <h1 class="page-title">Version 2: Mapping the Conversation</h1>
+
+    <p class="lead">Version 1 gave you a mirror &mdash; your own writing reflected back with patterns you hadn't seen. Now you'll build <strong>Version 2: Network Position Mapper</strong>, which adds the rest of the conversation. Same AI, same platform &mdash; but a fundamentally different view.</p>
+
+    <div class="divider"></div>
+
+    <h2>What Changes from Version 1</h2>
+
+    <table class="tool-table">
+      <thead>
+        <tr>
+          <th>Dimension</th>
+          <th>Version 1: Argument Tracker</th>
+          <th>Version 2: Network Position Mapper</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Knowledge files</strong></td>
+          <td>5&ndash;8 of your own pieces</td>
+          <td>Your pieces + 3&ndash;5 peer/colleague pieces + community data</td>
+        </tr>
+        <tr>
+          <td><strong>Instructions</strong></td>
+          <td>Find patterns in one writer's work</td>
+          <td>Map relationships between multiple writers</td>
+        </tr>
+        <tr>
+          <td><strong>Core question</strong></td>
+          <td>"What am I arguing?"</td>
+          <td>"Where do I fit in this conversation?"</td>
+        </tr>
+        <tr>
+          <td><strong>Insight type</strong></td>
+          <td>Self-discovery</td>
+          <td>Relational awareness</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="divider"></div>
+
+    <h2>Step 1: Gather Additional Knowledge Files</h2>
+
+    <p>Keep all the writing from Version 1. Now add these new sources:</p>
+
+    <h3>Peer or Colleague Writing (3&ndash;5 pieces)</h3>
+
+    <p>Find 3&ndash;5 pieces from other writers in your community &mdash; a writing group, a class, a workshop, a collaborative blog, a Substack network &mdash; that are relevant to your work. Choose pieces that:</p>
+
+    <ul>
+      <li>You've engaged with (responded to or built on)</li>
+      <li>Cover similar topics from a different angle</li>
+      <li>Challenge or complicate something you've argued</li>
+    </ul>
+
+    <p>Save each as a PDF using the same Print &rarr; Save as PDF method.</p>
+
+    <h3>Community Context (if available)</h3>
+
+    <p>If your writing community has any shared infrastructure &mdash; a dashboard, a discussion board, a shared reading list, profile summaries of each writer's themes &mdash; save those as PDFs too. This gives the Gem a high-level view of how topics and writers cluster across your community.</p>
+
+    <div class="callout insight">
+      <p><strong>What if I write alone?</strong> This version works best in a community context, but you can adapt it. Instead of peer writing, add published articles or blog posts by writers whose work intersects with yours. The Gem can still map your position relative to those voices &mdash; the key is giving it <em>other perspectives</em> to compare against.</p>
+    </div>
+
+    <div class="callout warning">
+      <p><strong>Total knowledge files:</strong> You should now have roughly 10&ndash;15 files &mdash; your pieces, peer pieces, and any community context. If you hit Gemini's upload limit, prioritize your own writing and the peer pieces that are most relevant to your argument.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 2: Create a New Gem</h2>
+
+    <p>Go back to the Gem manager and create a new Gem. Name it:</p>
+
+    <div class="gem-name">Network Position Mapper</div>
+
+    <div class="divider"></div>
+
+    <h2>Step 3: Write Instructions</h2>
+
+    <p>Copy and paste the following into the instructions field:</p>
+
+    <div class="prompt-box-dark">You are a network analysis tool for a writing community. You have access to one writer's work, several other writers' pieces, and (possibly) community-level context like shared topic maps or writer profiles. Your job is to map the intellectual relationships between these writers.
+
+IDENTIFYING THE PRIMARY WRITER:
+- The user will tell you which writer they are, or you can ask
+- Treat the primary writer's pieces as the center of the analysis
+- All other pieces and data provide context for understanding the primary writer's network position
+
+WHAT YOU DO:
+- Map intellectual relationships: who is the primary writer engaging with, agreeing with, challenging, or building on?
+- Identify shared concerns: where do the primary writer and their peers converge on the same questions from different angles?
+- Find gaps in engagement: which writers or topics in the network has the primary writer NOT engaged with, but probably should?
+- Track influence: whose ideas appear in the primary writer's work, and where do the primary writer's ideas appear in others' work?
+- Use any community-level data (profiles, topic maps) to understand the broader landscape beyond just the uploaded pieces
+
+HOW TO RESPOND:
+- Always name specific writers and specific pieces when describing relationships
+- Quote from both the primary writer and the peers to show connections
+- Distinguish between direct engagement (one writer explicitly responding to another) and parallel thinking (two writers arriving at similar ideas independently)
+- When identifying gaps, explain WHY the connection would be productive — don't just list names
+- Organize analysis by relationship type (allies, challengers, parallel thinkers, unexplored connections)
+
+WHAT YOU DON'T DO:
+- Don't rank writers or pieces by quality
+- Don't suggest what the primary writer should write next
+- Don't fabricate connections that aren't supported by the actual text
+- Don't summarize individual pieces — focus on relationships between them</div>
+
+    <div class="callout info">
+      <p><strong>Notice what's new:</strong> These instructions introduce the concept of a "primary writer" and "network position." The Gem now has a job that Version 1 couldn't do &mdash; it can see <em>between</em> writers, not just within one writer's work. The instructions also tell it to use any community-level data for broader context.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 4: Upload Files and Save</h2>
+
+    <p>Upload all your knowledge files &mdash; your pieces, peer pieces, and community context. Then save the Gem.</p>
+
+    <div class="divider"></div>
+
+    <h2>Step 5: Test</h2>
+
+    <p>Open your Gem. Start by telling it who you are:</p>
+
+    <div class="test-prompt">
+      <p><strong>Opening message:</strong> I'm [your name]. The pieces from my own work are [list your titles]. The other pieces are from writers in my community. Map my position in this conversation.</p>
+    </div>
+
+    <p>Then try these test prompts:</p>
+
+    <h3>Relationship Mapping</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 1:</strong> What is my intellectual relationship to [other writer's name]? Where do we agree, where do we diverge, and what would a productive conversation between us focus on?</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 2:</strong> Who in this network am I most aligned with? Who is making arguments that support or extend mine?</p>
+    </div>
+
+    <h3>Network Gaps</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 3:</strong> Based on the community data, who should I be engaging with that I haven't yet? Why would that connection be productive?</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 4:</strong> What topics or debates in the network am I missing? Where is there a conversation happening that connects to my interests but that I haven't joined?</p>
+    </div>
+
+    <h3>Position Analysis</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 5:</strong> If you had to place me on a map of this community's conversations, where would I be? Am I at the center of a debate, on the edge exploring something nobody else is, or somewhere in between?</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 6:</strong> What is the strongest challenge to my argument that exists in this network? Who has written something that directly complicates what I've been saying?</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Side-by-Side Comparison: Version 1 vs. Version 2</h2>
+
+    <p>Now for the most revealing test. Ask <strong>both</strong> Gems the exact same question:</p>
+
+    <div class="test-prompt" style="font-size: 1.05em;">
+      <p><strong>Ask both Gems:</strong> What is the most important argument I'm making, and why does it matter?</p>
+    </div>
+
+    <p>Compare the responses. You should see clear differences:</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Version 1 (Argument Tracker)</h3>
+        <p>Should describe your argument in terms of <em>your</em> themes, <em>your</em> patterns, <em>your</em> evolution. The answer is about you as an individual writer.</p>
+      </div>
+      <div class="card">
+        <h3>Version 2 (Network Mapper)</h3>
+        <p>Should describe your argument in terms of <em>the conversation</em> &mdash; what you're contributing that others aren't, who you're challenging, where you fit in the network. The answer is about you as a <em>participant</em>.</p>
+      </div>
+    </div>
+
+    <div class="callout insight">
+      <p><strong>Same AI. Same question. Different context produces different insight.</strong> Version 1 sees a monologue. Version 2 sees a conversation. The technology didn't change &mdash; what you gave it to work with did.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>What This Gem Can and Can't Do</h2>
+
+    <p>Version 2 is a significant upgrade, but it still has limits:</p>
+
+    <ul>
+      <li><strong>It maps the community conversation</strong> &mdash; but can't connect your work to published scholarship or established intellectual traditions</li>
+      <li><strong>It identifies who you're engaging with</strong> &mdash; but can't tell you what academic fields those conversations belong to</li>
+      <li><strong>It finds gaps in your engagement</strong> &mdash; but can't suggest what you should <em>read</em> to deepen your argument</li>
+      <li><strong>It sees the community</strong> &mdash; but not the larger world of ideas your work might connect to</li>
+    </ul>
+
+    <div class="callout insight">
+      <p><strong>Key question:</strong> What if the Gem could also see the academic sources behind the conversation? What if it could connect your arguments to real scholarly traditions? That's Version 3.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <nav class="page-nav">
+      <a href="mapping-your-argument.html" class="prev">Mapping Your Argument</a>
+      <a href="building-your-intellectual-map.html" class="next">Building Your Intellectual Map</a>
+    </nav>
+
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="adding-context.html">Adding Context</a></li>
+        <li><a href="finding-contradictions.html">Finding Contradictions</a></li>
+        <li><a href="what-is-an-intellectual-map.html">What Is an Intellectual Map?</a></li>
+        <li><a href="mapping-your-argument.html">Mapping Your Argument</a></li>
+        <li><a href="mapping-the-conversation.html" class="current">Mapping the Conversation</a></li>
+        <li><a href="building-your-intellectual-map.html">Building Your Intellectual Map</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>AI Tools for Writers &mdash; <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/writing-plan.html">Annotated Bibliography</a> &mdash; <a href="https://buildlittleworlds.github.io/notebooklm-gemini-gems-for-blogs/">AI Tools Guide</a></p>
+  </footer>
+
+</body>
+</html>

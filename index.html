@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Here: What Is a Gem? — Gems: Building an Intellectual Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">AI Tools for Writers</p>
+      <h1><a href="index.html">Gems: Building an Intellectual Map</a></h1>
+      <nav>
+        <a href="index.html" class="current">Start Here</a>
+        <a href="what-is-an-intellectual-map.html">Intellectual Map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="slogan-banner">
+      <span class="main-slogan">Better context, deeper insight.</span>
+      <span class="subtext">The same AI produces fundamentally different results depending on what you give it to work with.</span>
+    </div>
+
+    <h1 class="page-title">Start Here: What Is a Gem?</h1>
+
+    <p class="lead">This site teaches you how to use Google's Gemini Gems to build progressively richer AI-assisted intellectual maps of your own writing. If you want a full reference for all the Gems/Gemini/NotebookLM AI tools, visit the <a href="https://buildlittleworlds.github.io/notebooklm-gemini-gems-for-blogs/">AI Tools Guide</a>. This page is more focused. It shows you one specific use &mdash; <strong>building a connected body of writing using a single Gem</strong>.</p>
+
+    <p>By the end of these first three pages, you'll see how a Gem gets more useful as you feed it more of your work. That's the same principle behind the <em>Intellectual Map</em> sequence that follows.</p>
+
+    <div class="divider"></div>
+
+    <h2>What Is a Gem?</h2>
+
+    <p>A Gem is a custom AI assistant inside Google Gemini. You give it a set of standing instructions &mdash; who it is, how it should behave, what it should focus on &mdash; and those instructions stay in place every time you open it. Think of it as a version of Gemini that's been tuned for a specific job.</p>
+
+    <p>Unlike a regular chat, where you have to re-explain what you want every time, a Gem <strong>remembers its role</strong>. You set it up once, and then every conversation with that Gem starts from those instructions. That's what makes it useful for sustained work across a whole series of writing.</p>
+
+    <div class="callout info">
+      <p><strong>What you'll need:</strong> A Google account with access to Gemini. Go to <a href="https://gemini.google.com">gemini.google.com</a> and sign in.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>The Demo: Building a Week of Writing</h2>
+
+    <p>To show how this works, we'll walk through a real example: Dr. Plate (the author of this guide) using a Gem to plan and write three connected pieces in one week, all building on a single topic &mdash; <strong>the dystopian framing problem</strong>.</p>
+
+    <p>Here's the short version of the topic: about 150 years of dystopian science fiction have trained us to see new technology through a lens of fear. That framing shapes real policy debates and real public attitudes &mdash; and it may be doing more harm than good. Two recent articles make this argument from different angles, and they're the seeds for everything that follows.</p>
+
+    <div class="callout insight">
+      <p><strong>The key idea:</strong> The Gem accumulates context as you write. Piece 1 seeds the Gem. Piece 2 builds on Piece 1 inside the Gem. Piece 3 builds on both. By the end of the week, the Gem knows your argument well enough to identify contradictions you didn't notice.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 1: Find Your Starting Sources</h2>
+
+    <p>A Gem needs something to work with. You can't just say "write about dystopia" &mdash; you need to give it specific material. Here are the two articles used in this demo:</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Source 1</h3>
+        <p><strong>Adam Thierer</strong>, <a href="https://www.discoursemagazine.com/p/how-science-fiction-dystopianism-shapes-the-debate-over-ai-robotics">&ldquo;How Science Fiction Dystopianism Shapes the Debate over AI &amp; Robotics&rdquo;</a></p>
+        <p>Argues that dystopian portrayals drive overly cautious regulation. Expert consensus often contradicts popular fears. Introduces the idea of the &ldquo;Black Mirror fallacy&rdquo; &mdash; letting fictional scenarios dominate real policy debates.</p>
+      </div>
+      <div class="card">
+        <h3>Source 2</h3>
+        <p><strong>Torie Bosch</strong>, <a href="https://www.newamerica.org/the-thread/dystopian-sci-fi-and-the-fear-of-today-and-tomorrows-technology/">&ldquo;Dystopian Sci-Fi and the Fear of Today and Tomorrow's Technology&rdquo;</a></p>
+        <p>Argues that dystopian fear can paralyze rather than motivate. Cites data showing 75% of young people find the future &ldquo;frightening.&rdquo; Calls for hopeful alternatives alongside the warnings.</p>
+      </div>
+    </div>
+
+    <p>When you do this yourself, you'll pick your own topic and your own sources. The important thing is to start with <strong>real material</strong> &mdash; articles, chapters, essays &mdash; not just a vague idea. Copy the URLs or paste the article text directly into your Gem conversation.</p>
+
+    <div class="divider"></div>
+
+    <h2>Step 2: Create the Gem</h2>
+
+    <p>In Gemini, go to <strong>Gem Manager</strong> (left sidebar) &rarr; <strong>New Gem</strong>. Give it a name &mdash; something like "Blog Week: Dystopian Framing" &mdash; and paste in the following instructions:</p>
+
+    <div class="prompt-box-dark">You are a research and drafting assistant for an argumentative blog.
+
+Your role: help me develop arguments, find angles, and identify tensions in my sources and my own writing.
+
+When I share sources (articles, essays, chapters), analyze them for:
+- Key claims and the evidence behind them
+- Usable quotes I could engage with in a blog post
+- Points of tension or disagreement between sources
+
+When I ask for a draft, write approximately 800 words in a conversational, intellectually engaged voice. The tone should be someone thinking out loud, not lecturing.
+
+After every response:
+- Suggest what I might explore next
+- Flag where I need to verify claims or find additional sources
+- Point out assumptions I might be making without realizing it</div>
+
+    <p>Click <strong>Save</strong>. Now you have a Gem that's ready to help you build a week of writing.</p>
+
+    <div class="callout info">
+      <p><strong>Tip:</strong> You can always edit these instructions later. As you use the Gem and figure out what you wish it did differently, go back and revise. The instructions aren't permanent.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 3: Start the Conversation</h2>
+
+    <p>Open your new Gem and share the two source articles. You can paste the URLs, paste the article text, or both. Then try one of these opening prompts:</p>
+
+    <div class="prompt-sample">
+      <p>&ldquo;Here are two articles about how dystopian fiction shapes attitudes toward technology. Analyze the key claims in each and tell me what angle would make the strongest blog post.&rdquo;</p>
+      <p>&ldquo;I want to argue that dystopian fiction functions as a frame &mdash; it pre-loads how we interpret new technology before we've even experienced it. Help me build that argument using these sources.&rdquo;</p>
+    </div>
+
+    <p>You don't have to use these exact prompts. The point is to give the Gem a clear task: <em>look at these sources and help me find an argument</em>.</p>
+
+    <div class="divider"></div>
+
+    <h2>Step 4: Use the Gem to Write</h2>
+
+    <p>Work with the Gem iteratively. It suggests an angle &mdash; you push back. It drafts a paragraph &mdash; you revise the direction. It's a conversation, not a one-shot prompt.</p>
+
+    <p>When you ask the Gem for a draft, remember:</p>
+
+    <ul>
+      <li>The draft is a <strong>starting point</strong>, not a finished piece. Edit it to sound like you.</li>
+      <li>The writing should <strong>engage with the sources</strong> &mdash; quote them, paraphrase them, argue with them. Don't just summarize.</li>
+      <li>Make an <strong>argument</strong>. Take a position. Say something the sources didn't say.</li>
+      <li>Aim for <strong>750&ndash;1500 words</strong> &mdash; enough space to develop a real idea.</li>
+    </ul>
+
+    <div class="callout insight">
+      <p><strong>Remember:</strong> The Gem is a thinking partner, not a ghostwriter. It helps you develop your argument, but the argument is yours. You decide what to claim, what to emphasize, and what to push back on.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>What Happens Next</h2>
+
+    <p>Once you've finished and published your first piece, something interesting happens. You can <strong>add your finished writing back into the Gem</strong>. Now the Gem doesn't just know the sources &mdash; it knows <em>your argument</em>. It knows what you actually said, what angle you took, what you emphasized and what you left out.</p>
+
+    <p>That's what makes the second piece different from the first. You're not starting from scratch. You're building on a foundation the Gem can see.</p>
+
+    <div class="callout success">
+      <p><strong>Next up:</strong> The next page walks you through adding your first piece to the Gem and using the accumulated context to write a stronger, more connected follow-up.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <nav class="page-nav">
+      <span></span>
+      <a href="adding-context.html" class="next">Adding Context</a>
+    </nav>
+
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html" class="current">Start Here</a></li>
+        <li><a href="adding-context.html">Adding Context</a></li>
+        <li><a href="finding-contradictions.html">Finding Contradictions</a></li>
+        <li><a href="what-is-an-intellectual-map.html">What Is an Intellectual Map?</a></li>
+        <li><a href="mapping-your-argument.html">Mapping Your Argument</a></li>
+        <li><a href="mapping-the-conversation.html">Mapping the Conversation</a></li>
+        <li><a href="building-your-intellectual-map.html">Building Your Intellectual Map</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>AI Tools for Writers &mdash; <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/writing-plan.html">Annotated Bibliography</a> &mdash; <a href="https://buildlittleworlds.github.io/notebooklm-gemini-gems-for-blogs/">AI Tools Guide</a></p>
+  </footer>
+
+</body>
+</html>

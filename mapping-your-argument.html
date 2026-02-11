@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Version 1: Mapping Your Own Argument — Gems: Building an Intellectual Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <p class="site-label">AI Tools for Writers</p>
+      <h1><a href="index.html">Gems: Building an Intellectual Map</a></h1>
+      <nav>
+        <a href="index.html">Start Here</a>
+        <a href="what-is-an-intellectual-map.html" class="current">Intellectual Map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="slogan-banner">
+      <span class="main-slogan">Better context, deeper insight.</span>
+      <span class="subtext">The same AI produces fundamentally different results depending on what you give it to work with.</span>
+    </div>
+
+    <h1 class="page-title">Version 1: Mapping Your Own Argument</h1>
+
+    <p class="lead">This page walks you through building <strong>Version 1: My Argument Tracker</strong> &mdash; a Gem that reads your collected writing and identifies patterns in your thinking. The whole process takes about 20 minutes.</p>
+
+    <div class="callout insight">
+      <p><strong>What makes this different from a drafting Gem:</strong> You're not asking AI to help you write. You're asking it to <em>read</em> &mdash; to look at everything you've written so far and tell you what argument you've been building, even if you haven't fully articulated it yourself.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 1: Gather Your Writing</h2>
+
+    <p>You'll need <strong>5&ndash;8 pieces of your own writing</strong> saved as individual files. Here's how to get them:</p>
+
+    <ol>
+      <li>Open each piece you want to include</li>
+      <li>Use your browser's <strong>Print &rarr; Save as PDF</strong> to save each one (Chrome: Ctrl+P or Cmd+P &rarr; change destination to "Save as PDF")</li>
+      <li>Name each file something recognizable (e.g., <code>my-first-post.pdf</code>, <code>friction-of-fluency-response.pdf</code>)</li>
+    </ol>
+
+    <div class="callout info">
+      <p><strong>Which pieces to include:</strong> Choose pieces that represent different topics or different stages of your thinking. You want variety &mdash; if all 8 pieces are about the same narrow topic, the Gem won't have much to map. Include early writing and recent writing so the Gem can see how your thinking has evolved.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 2: Create the Gem</h2>
+
+    <ol>
+      <li>Go to <a href="https://gemini.google.com">gemini.google.com</a> and sign in</li>
+      <li>In the left sidebar, click <strong>Gem manager</strong></li>
+      <li>Click <strong>New Gem</strong></li>
+    </ol>
+
+    <p>Name your Gem:</p>
+
+    <div class="gem-name">My Argument Tracker</div>
+
+    <div class="divider"></div>
+
+    <h2>Step 3: Write Instructions</h2>
+
+    <p>Copy and paste the following into the instructions field:</p>
+
+    <div class="prompt-box-dark">You are an analytical reading tool for a writer. Your job is to read the writer's collected work and identify patterns, themes, and arguments they may not have fully articulated.
+
+WHAT YOU DO:
+- Read the uploaded writing as a connected body of work, not as isolated pieces
+- Identify recurring themes, questions, and arguments across multiple pieces
+- Track how the writer's thinking has evolved over time
+- Find contradictions or tensions between pieces — places where the writer argues one thing in one piece and something different in another
+- Notice what topics the writer keeps returning to, even when the surface subject changes
+
+HOW TO RESPOND:
+- Always cite specific pieces by title when making claims about the writing
+- Quote directly from the pieces when identifying patterns
+- Be specific rather than vague — don't say "you write about technology a lot," say "in three of your eight pieces, you return to the question of whether AI changes the nature of expertise"
+- When you find a contradiction, present both sides fairly before asking the writer to reflect on it
+- Organize your analysis clearly with sections or categories
+
+WHAT YOU DON'T DO:
+- Don't evaluate the quality of the writing — you're not a grader
+- Don't suggest what the writer should write next — you're a mirror, not a guide
+- Don't impose themes that aren't there — if the pieces are genuinely diverse with no connecting thread, say so honestly
+- Don't summarize individual pieces — the writer already knows what they wrote. Your job is to find what connects them.</div>
+
+    <div class="callout info">
+      <p><strong>Notice the structure:</strong> The instructions are organized into three categories &mdash; what the Gem does, how it responds, and what it avoids. This is the same pattern professional AI builders use. Clear categories prevent the AI from drifting into behaviors you don't want (like grading your work or telling you what to write).</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 4: Upload Your Writing</h2>
+
+    <p>Click the upload area in the Gem builder and add all 5&ndash;8 of your saved PDFs.</p>
+
+    <div class="callout warning">
+      <p><strong>File size note:</strong> Gemini Gems have a limit on how much you can upload. If you have trouble, try uploading fewer pieces (start with 5) or using shorter PDFs. You can also copy-paste your text into a Google Doc and upload that instead of a PDF.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>Step 5: Save and Test</h2>
+
+    <p>Save your Gem and open it. Try these test prompts:</p>
+
+    <h3>Pattern Discovery</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 1:</strong> What argument am I making across these pieces? Not the topic of each individual piece, but the deeper argument that connects them.</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 2:</strong> What question do I keep coming back to, even when the surface subject changes?</p>
+    </div>
+
+    <h3>Evolution and Contradiction</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 3:</strong> Where am I inconsistent? Show me places where I argue one thing in one piece and something different in another.</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 4:</strong> How has my thinking changed from my earliest piece to my most recent one? What did I believe at first that I seem to have moved away from?</p>
+    </div>
+
+    <h3>Gaps and Blind Spots</h3>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 5:</strong> What am I <em>not</em> talking about? Based on the topics I circle around, what related questions am I avoiding or haven't addressed yet?</p>
+    </div>
+
+    <div class="test-prompt">
+      <p><strong>Prompt 6:</strong> If you had to give my collected writing a subtitle &mdash; not a topic label, but a phrase that captures what I'm actually wrestling with &mdash; what would it be?</p>
+    </div>
+
+    <div class="callout info">
+      <p><strong>What to watch for:</strong> Does the Gem cite specific pieces by title? Does it quote your actual words? Does it find connections you hadn't noticed? Does it identify contradictions you didn't realize were there? The most useful response is one that makes you say <em>"Huh &mdash; I didn't see that."</em></p>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2>What This Gem Can and Can't Do</h2>
+
+    <p>Your Argument Tracker is a useful mirror, but it has real limits:</p>
+
+    <ul>
+      <li><strong>It sees your writing</strong> &mdash; but has no idea what anyone else has written</li>
+      <li><strong>It finds patterns in your work</strong> &mdash; but can't tell you whether those patterns are interesting or ordinary</li>
+      <li><strong>It identifies your recurring questions</strong> &mdash; but can't tell you whether anyone else is asking the same questions</li>
+      <li><strong>It works with what you gave it</strong> &mdash; with only your work, it's reading a monologue, not a conversation</li>
+    </ul>
+
+    <div class="callout insight">
+      <p><strong>Key question:</strong> What would change if the Gem could also see what other writers in your community have been writing? What if it could see the whole conversation, not just your side of it? That's what Version 2 addresses.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <nav class="page-nav">
+      <a href="what-is-an-intellectual-map.html" class="prev">What Is an Intellectual Map?</a>
+      <a href="mapping-the-conversation.html" class="next">Mapping the Conversation</a>
+    </nav>
+
+    <nav class="site-nav-bottom">
+      <h3>All Pages</h3>
+      <ul>
+        <li><a href="index.html">Start Here</a></li>
+        <li><a href="adding-context.html">Adding Context</a></li>
+        <li><a href="finding-contradictions.html">Finding Contradictions</a></li>
+        <li><a href="what-is-an-intellectual-map.html">What Is an Intellectual Map?</a></li>
+        <li><a href="mapping-your-argument.html" class="current">Mapping Your Argument</a></li>
+        <li><a href="mapping-the-conversation.html">Mapping the Conversation</a></li>
+        <li><a href="building-your-intellectual-map.html">Building Your Intellectual Map</a></li>
+      </ul>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>AI Tools for Writers &mdash; <a href="https://buildlittleworlds.github.io/engl170-spring2026-dashboard/writing-plan.html">Annotated Bibliography</a> &mdash; <a href="https://buildlittleworlds.github.io/notebooklm-gemini-gems-for-blogs/">AI Tools Guide</a></p>
+  </footer>
+
+</body>
+</html>
